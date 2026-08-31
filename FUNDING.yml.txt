@@ -1,2 +1,0 @@
-# GitHub official sponsorship configuration mapping file
-custom: ["https://buymeacoffee.com"]
