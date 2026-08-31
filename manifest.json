@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp Community Exporter",
+  "version": "2.0",
+  "description": "Extracts and continuously captures all group numbers, sorted cleanly by country.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://whatsapp.com*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

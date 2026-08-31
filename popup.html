@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 240px; font-family: Arial, sans-serif; padding: 12px; margin: 0; background: #fcfcfc; }
+    h3 { margin-top: 0; color: #075E54; font-size: 15px; border-bottom: 1px solid #ddd; padding-bottom: 5px; }
+    p { font-size: 12px; color: #444; line-height: 1.4; margin: 6px 0; }
+    .status-box { background: #e1f5fe; padding: 6px; border-radius: 4px; font-size: 11px; margin-bottom: 10px; color: #0277bd; font-weight: bold; text-align: center; }
+    button { 
+      width: 100%; padding: 10px; margin-top: 5px; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; font-size: 12px;
+    }
+    .start-btn { background-color: #34b7f1; color: white; }
+    .start-btn:hover { background-color: #0ea4e0; }
+    .export-btn { background-color: #25D366; color: white; }
+    .export-btn:hover { background-color: #128C7E; }
+  </style>
+</head>
+<body>
+  <h3>WhatsApp Community Exporter</h3>
+  <div class="status-box" id="status text">Follow steps below:</div>
+  <p>1. Open the member list panel on WhatsApp Web.</p>
+  <button class="start-btn" id="startBtn">1. Start Tracking Memory</button>
+  <p>2. Scroll down slowly from top to bottom so all 1,167 members render on screen.</p>
+  <button class="export-btn" id="exportBtn" disabled style="opacity: 0.5;">2. Export & Sort Clean List</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
